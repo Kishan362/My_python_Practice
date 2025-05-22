@@ -12,3 +12,5 @@ print(bool('True')) # this will print true
 print(bool('False')) # this will print true
 print(bool('')) # this will print false
 print(bool(' ')) # this will print true
+
+print (bool(not(is_cool)))

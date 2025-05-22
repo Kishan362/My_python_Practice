@@ -47,4 +47,12 @@ def sum(num1, num2):
 total = sum(4,5)
 print(sum(40,total))
 
+def sumsum(num1 ,num2):
+    def another_func(n1, n2):
+        return n1 + n2
+    return another_func(num1,num2)
+
+totala = sumsum(40,5)
+print(totala)
+
 #clean code
